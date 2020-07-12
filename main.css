@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("image/2.jpeg");
+    background-position: bottom;
+    overflow: hidden;    
+}
+.container{
+    width: 500px;
+    height: 650px;
+    margin: 50px auto;
+    border-radius: 10px;
+    background-image: url("image/4.jpeg");
+    background-position: bottom;
+    position: relative;
+    overflow: hidden;
+    box-shadow: -2px -23px 41px -19px rgba(235,60,7,1);
+}
+.first{
+    background-image: url("image/hicab.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 550px;
+    position: absolute;
+    top: 18%;
+    left: 5%;
+    box-shadow: -2px -23px 41px -19px rgba(235,60,7,1);
+    border-radius: 10px;
+}
+.second{
+    border-radius: 10px;
+    background-image: url("image/man.jpg");
+    position: absolute;
+    width: 400px;
+    height: 550px;
+    top: 18%;
+    right: 5%;
+    box-shadow: -2px -23px 41px -19px rgba(235,60,7,1);
+}
+.container:hover,.first:hover,.second:hover{
+    transition: transform 0.9s;
+    transform: scale(1.1,1.1);
+}
+.main{
+    position: absolute;
+    bottom: 0;
+    right: 35%;
+    width: 150px;
+    height: 110px;
+    background: transparent;
+}
+input[type="date"]{
+    display: inline-block;
+    width: 100%;
+    outline: none;
+    border-radius: 8px;
+}
+button{
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(231, 56, 25);
+    margin-top: 10px;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+#div{
+    position: absolute;
+    left: 35%;
+    top: 30%;
+}
+#div p{
+    margin: 10px;
+ }
+#div h3{
+    display: inline-block;
+    margin-right: 10px;
+    color: white;
+}
+#div h1{
+    color: white;
+}
+#div span{
+    font-weight: bold;
+    color: white;
+    }
+img{
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    z-index: 5;
+}
+.container h2{
+    position: absolute; top: 15%;left: 13%;font-size: 35px;color:white; box-shadow: 0px 0px 41px 0px rgba(235,60,7,1);
+}
+.container h6{
+    position: absolute; top: 22%;left: 13%;font-size: 25px;color:white; box-shadow: 0px 0px 41px 0px rgba(235,60,7,1);margin-left: 26px;
+}
